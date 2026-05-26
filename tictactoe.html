@@ -353,14 +353,15 @@
     };
 
     const firebaseConfig = {
-      apiKey: 'YOUR_API_KEY',
-      authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-      databaseURL: 'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com',
-      projectId: 'YOUR_PROJECT_ID',
-      storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-      messagingSenderId: 'YOUR_SENDER_ID',
-      appId: 'YOUR_APP_ID',
-    };
+  apiKey: "AIzaSyAVGby3MoB1AwyxjnrtCh3Kq7WzKEcDTqw",
+  authDomain: "tic-tac-toe-matchplay.firebaseapp.com",
+  databaseURL: "https://tic-tac-toe-matchplay-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tic-tac-toe-matchplay",
+  storageBucket: "tic-tac-toe-matchplay.firebasestorage.app",
+  messagingSenderId: "402168252306",
+  appId: "1:402168252306:web:8a2557a45503158d21e34b",
+  measurementId: "G-JHW7BT9ESV"
+};
 
     const useFirebase = !firebaseConfig.apiKey.includes('YOUR_API_KEY') && window.firebase && firebase.database;
     let db = null;
